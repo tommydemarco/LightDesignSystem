@@ -1,0 +1,30 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+import { html } from 'lit-html';
+
+<Meta title="MDX/Checkbox" />
+
+# Checkbox
+
+With `MDX`, we can define a story for `Checkbox` right in the middle of our
+Markdown documentation.
+
+export const Template = () => {
+  return `<my-component>Hello</my-component>`;
+};
+
+<Canvas>
+  <Story name="Unchecked">{Template.bind({})}</Story>
+</Canvas>
+
+# Headline
+
+With `MDX`, we can define a story for `Checkbox` right in the middle of our
+Markdown documentation.
+
+export const Timplate = () => {
+  return `<h1 class="lds-headline">Hello</h1>`;
+};
+
+<Canvas>
+  <Story name="Headline">{Timplate.bind({})}</Story>
+</Canvas>

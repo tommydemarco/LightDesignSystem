@@ -24,11 +24,13 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@stencil/core": "^2.0.1"
+    "@stencil/core": "^2.0.1",
+    "lit-html": "^1.4.1"
   },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.6",
+    "@stencil/sass": "^1.4.1",
     "@storybook/addon-actions": "^6.3.3",
     "@storybook/addon-essentials": "^6.3.3",
     "@storybook/addon-links": "^6.3.3",
